@@ -54,4 +54,36 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
-alert("This is a \"Javascript\" Test Coding")
+// alert("This is a \"Javascript\" Test Coding")
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// let number1 = prompt("لطفا عدد اول را وارد نمایید");
+
+// let number2 = prompt("لطفا عدد دوم را وارد نمایید");
+
+
+// let number1TypeNumber =Number(number1);
+// let number2TypeNumber =Number(number2);
+
+
+
+// if (number1TypeNumber * number2TypeNumber === 12) {
+// 	alert("This is a good")
+// }else {
+// 	alert("Fuck This is not Good")
+// }
+
+
+let number1 =Number(prompt("لطفا عدد مورد نظر خور را بنوسید",0)) 
+let number2 =Number(prompt("لطفا عدد مورد نظر خور را بنوسید",0)) 
+let number3 =Number(prompt("لطفا عدد مورد نظر خور را بنوسید",0)) 
+
+let avrege = (number1 + number2 + number3) / 3
+
+alert(avrege)
