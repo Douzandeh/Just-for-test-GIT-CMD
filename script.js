@@ -11,16 +11,33 @@
 // alert(Boolean("")) // false
 // alert(Boolean(" ")) // true
 
-let firstNumber = 5;
+// let firstNumber = 5;
 
-let secondNumber = 6;
+// let secondNumber = 6;
 
-let result = firstNumber + secondNumber;
+// let result = firstNumber + secondNumber;
 
-let minusResult = firstNumber - secondNumber;
+// let minusResult = firstNumber - secondNumber;
 
-let zarbResult = firstNumber * secondNumber;
+// let zarbResult = firstNumber * secondNumber;
 
 
-let bagiMande = 19 % 5
-alert(bagiMande)
+// let bagiMande = 19 % 5
+// alert(bagiMande)
+
+let number1 = prompt("لطفا عدد اول را وارد نمایید");
+
+let number2 = prompt("لطفا عدد دوم را وارد نمایید");
+
+let number1TypeNumber =Number(number1);
+let number2TypeNumber =Number(number2);
+
+let plusResult = number1TypeNumber + number2TypeNumber;
+
+let minusResult = number1TypeNumber - number2TypeNumber;
+
+let tagsimResult = number1TypeNumber / number2TypeNumber;
+
+let zarbResult = number1TypeNumber * number2TypeNumber;
+
+alert(zarbResult)
