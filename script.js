@@ -46,7 +46,12 @@
 ///////////////////////////////////////////////////////////////////////////
 
 
-let firstName = 'Hossein';
-let lastName = "Douzandeh";
+// let firstName = 'Hossein';
+// let lastName = "Douzandeh";
 
-alert(`My Name is ${firstName} and My last Name ${lastName} `)
+// alert(`My Name is ${firstName} and My last Name ${lastName} `)
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+alert("This is a \"Javascript\" Test Coding")
