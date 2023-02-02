@@ -21,4 +21,6 @@ let minusResult = firstNumber - secondNumber;
 
 let zarbResult = firstNumber * secondNumber;
 
-alert(zarbResult)
+
+let bagiMande = 19 % 5
+alert(bagiMande)
