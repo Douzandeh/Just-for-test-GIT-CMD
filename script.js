@@ -86,4 +86,4 @@ let number3 =Number(prompt("لطفا عدد مورد نظر خور را بنوس
 
 let avrege = (number1 + number2 + number3) / 3
 
-alert(avrege)
+alert(avrege) 
